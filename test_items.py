@@ -11,5 +11,5 @@ def test_page_contains_add_button(browser):
     
     time.sleep(15)
     
-    assert add_button is not None
+    assert add_button is not None, "Button not found"
     
